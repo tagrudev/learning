@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
             addNickname(it)
         }
     }
-    
+
     private fun addNickname(view: View) {
         binding.apply {
             myName?.nickname = nicknameEdit.text.toString()
